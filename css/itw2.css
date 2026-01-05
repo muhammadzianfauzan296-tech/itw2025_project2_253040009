@@ -1,0 +1,239 @@
+
+    * { margin:0; 
+      padding:0;
+       box-sizing:border-box;
+       }
+    body { font-family:'Prata', serif; 
+      line-height:1.6; 
+      overflow-x:hidden;
+       background-color:#f8fafc;
+       scroll-behavior:smooth; 
+      }
+    img { max-width:100%;
+       display:block; 
+      }
+
+    .navbar {
+       background: linear-gradient(90deg,#1e3a8a,#2563eb);
+     }
+    .navbar .nav-link {
+       color:white; font-weight:500; transition:0.3s; 
+    }
+    .navbar .nav-link:hover {
+       color:#fcd34d; text-decoration:none; 
+    }
+    .navbar-brand .brand-text {
+       font-family:'Federant', cursive; font-size:1.5rem; font-weight:bold;
+     }
+
+
+#home {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: linear-gradient(135deg, #2563eb, #60a5fa);
+}
+
+#home img {
+    width: 350px;
+    margin: 0 auto;
+    display: block;
+    transition: all 0.4s ease; 
+    cursor: pointer;
+}
+
+#home img:hover {
+    transform: scale(1.15) rotate(3deg);
+    filter: drop-shadow(0 10px 25px rgba(0,0,0,0.4));
+}
+
+
+#home .home-content {
+    max-width: 700px;
+}
+
+#home h1 {
+    font-family: 'Federant', cursive;
+    font-size: 4.5rem;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    transition: all 0.4s ease; 
+    cursor: pointer;
+    color: white;
+}
+
+#home h1:hover {
+    color: #fcd34d;
+    text-shadow:0 0 15px rgba(252, 211, 77, 0.8);
+    transform: scale(1.05);
+}
+
+#home h1 span {
+    color: #fcd34d;
+    transition: all 0.4s ease;
+}
+
+#home h1 span:hover {
+    text-shadow:
+        0 0 20px rgba(252, 211, 77, 1);
+}
+
+ #sejarah { 
+background-color:#f3f4f6;
+color:#111827 ; 
+margin-bottom: 0;
+padding-top: 150px;
+ }
+
+ #sejarah img {
+  transition: transform 0.3s, box-shadow 0.3s; 
+}
+
+#sejarah img:hover {
+  transform: scale(1.05); 
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4); 
+}
+
+ #sejarah h1 { 
+font-family:'Prata', serif;
+font-size:3rem ;
+ }
+ #sejarah p {
+ font-size:1.1rem;
+ margin-bottom:1rem;
+ }
+
+#kegiatan { 
+background-color:#e0f2fe; 
+color:#111827;
+ }
+   
+ #kegiatan h1 { 
+font-family:'Prata', serif; 
+font-size:3rem; 
+margin-bottom:0,5rem; 
+}
+.card { 
+transition:0.3s;
+ }
+.card:hover { 
+transform:translateY(-5px); 
+box-shadow:0 10px 20px rgba(0,0,0,0.2); 
+}
+.card-body.bg-primary { 
+background-color:#2563eb; color:white; }
+
+#arsip {
+    background-color: #1e293b; 
+    color: white;
+    padding: 5rem 0;
+}
+
+#arsip h1 {
+    font-family: 'Science Gothic', sans-serif;
+    font-size: 3rem;
+    color: #fcd34d; 
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+#arsip p {
+    text-align: center;
+    color: #cbd5e1;
+    margin-bottom: 3rem;
+    font-size: 1.1rem;
+}
+
+.arsip-card {
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.arsip-card img {
+    width: 100%;
+    height: 200px; 
+    object-fit: cover; 
+    transition: transform 0.3s;
+}
+
+.arsip-card:hover img {
+    transform: scale(1.1); 
+}
+.arsip-card .overlay {
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(0,0,0,0.5);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.arsip-card:hover .overlay {
+    opacity: 1; 
+}
+
+#homebase { 
+background-color:#ffffff; 
+color:#111827; 
+}
+#homebase h3 { 
+font-family:'Science Gothic', sans-serif;
+ font-size:2.2rem; margin-bottom:1rem; 
+}
+#homebase p { 
+font-size:1rem;
+ color:#4b5563; 
+}
+
+#join { 
+background-color:#f1f5f9; 
+}
+#join h3 { 
+font-family:'Federant', cursive; 
+font-size:1.8rem; 
+margin-bottom:1.5rem;
+ }
+#join .btn-primary { 
+ background-color:#2563eb; 
+ border:none; 
+ transition:0.3s; 
+}
+#join .btn-primary:hover { 
+background-color:#1e40af;
+transform:scale(1.05); 
+}
+#join .btn-success { 
+transition:0.3s; }
+ #join .btn-success:hover { 
+background-color:#16a34a;
+transform:scale(1.05); 
+}
+
+footer { 
+background:linear-gradient(90deg,#1e3a8a,#2563eb); 
+color:white;
+ }
+footer h5 { 
+font-family:'Federant', cursive; 
+margin-bottom:0.5rem; 
+}
+footer p, footer li { 
+font-size:0.9rem;
+ }
+footer a { 
+color:white;
+ text-decoration:none;
+ }
+footer a:hover { 
+color:#fcd34d; 
+}
